@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:background="@android:color/holo_purple"
+    android:scrollbars="vertical"
+    android:clickable="true"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Bdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baptism date: "
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowBaptsimdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/Bdate"
+            android:layout_toRightOf="@+id/Bdate"
+            android:gravity="center"
+            android:text="Show Baptism date"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/BaptismStarttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Bdate"
+            android:text="Start time "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Showstarttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="27dp"
+            android:layout_toEndOf="@+id/BaptismStarttime"
+            android:layout_toRightOf="@+id/BaptismStarttime"
+            android:gravity="center"
+            android:text="Show Start time"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Baptismgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BaptismStarttime"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Baptism group"/>
+
+        <TextView
+            android:id="@+id/ShowBaptismGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="53dp"
+            android:layout_toEndOf="@+id/Baptismgroup"
+            android:layout_toRightOf="@+id/Baptismgroup"
+            android:gravity="center"
+            android:text="Show Baptism group"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Baptismvenue"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/Baptismgroup"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Baptism venue: " />
+
+        <TextView
+            android:id="@+id/ShowBaptismVenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="79dp"
+            android:layout_toEndOf="@+id/Baptismvenue"
+            android:layout_toRightOf="@+id/Baptismvenue"
+            android:gravity="center"
+            android:text="Show Baptism Venue"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Baptismcelebrant"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/Baptismvenue"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Main Celebrant: " />
+
+        <TextView
+            android:id="@+id/ShowBaptismcelebrant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="111dp"
+            android:layout_toEndOf="@+id/Baptismcelebrant"
+            android:layout_toRightOf="@+id/Baptismcelebrant"
+            android:gravity="center"
+            android:text="Show Main Celebrant"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/Feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:background="@null"
+            android:text="Send feedback"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Compare">
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="Phone"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/BaptismTime"
+        android:layout_below="@+id/Phone"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Start time"
+        android:imeOptions="actionUnspecified"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/BaptismDate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BaptismTime"
+        android:layout_marginTop="104dp"
+        android:focusableInTouchMode="true"
+        android:imeOptions="actionUnspecified"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Date"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/button_datepicker"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Jesus"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="150dp"
+        android:layout_toEndOf="@+id/BaptismDate"
+        android:layout_toRightOf="@+id/BaptismDate"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:imeOptions="actionUnspecified"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="select date"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/Save"
+        style="?android:textAppearanceSmall"
+        android:layout_below="@+id/BaptismDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_purple"
+        android:text="Add event"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+</RelativeLayout>

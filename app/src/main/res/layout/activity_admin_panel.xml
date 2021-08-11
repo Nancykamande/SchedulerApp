@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adventures.AdminPanel">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:text="ADMIN PANEL"
+
+        android:textSize="20dp"
+        />
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editusers"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="170dp"
+        android:text="Firebase Users Edit"/>
+
+    <!--<Button
+        android:id="@+id/addmap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editusers"
+        android:layout_marginTop="20dp"
+        android:text="Add Places on Map" /> -->
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addfeatures"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/editusers"
+        android:layout_marginTop="80dp"
+        android:text="Add Features"/>
+
+
+</RelativeLayout>

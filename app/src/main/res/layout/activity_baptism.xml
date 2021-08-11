@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Baptism">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Admin.Baptism">
+        <ImageView
+            android:layout_width="500dp"
+            android:id="@+id/Jesus"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/jesus" />
+            <EditText
+                android:id="@+id/BaptismTime"
+                android:layout_below="@+id/Jesus"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:hint="Start time"
+                android:imeOptions="actionUnspecified"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/endTime"
+            android:layout_below="@+id/BaptismTime"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="End time"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+
+        <TextView
+            android:id="@+id/BaptismDate"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/endTime"
+            android:layout_marginTop="0dp"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Date"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/button_datepicker"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Jesus"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="65dp"
+            android:layout_toEndOf="@+id/BaptismDate"
+            android:layout_toRightOf="@+id/BaptismDate"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="select date"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/TextviewVenue"
+            android:layout_width="159dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/BaptismDate"
+            android:layout_marginLeft="10dp"
+            android:text="Select Venue"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BaptismDate"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="9dp"
+            android:layout_toEndOf="@+id/TextviewVenue"
+            android:layout_toRightOf="@+id/TextviewVenue"
+            android:entries="@array/church_arrays"
+            android:prompt="@string/church_prompt" />
+        <TextView
+            android:id="@+id/TextviewCelebrant"
+            android:layout_width="159dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/TextviewVenue"
+            android:layout_marginLeft="10dp"
+            android:text="Main celebrant"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginStart="-21dp"
+            android:layout_marginLeft="-21dp"
+            android:layout_marginTop="22dp"
+            android:layout_toEndOf="@+id/TextviewCelebrant"
+            android:layout_toRightOf="@+id/TextviewCelebrant"
+            android:entries="@array/celebrant_arrays"
+            android:prompt="@string/celebrant_prompt" />
+        <TextView
+            android:id="@+id/BaptismGroup"
+            android:layout_width="159dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/TextviewCelebrant"
+            android:layout_marginLeft="10dp"
+            android:text="Select Baptism Group"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginStart="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="63dp"
+            android:layout_toEndOf="@+id/BaptismGroup"
+            android:layout_toRightOf="@+id/BaptismGroup"
+            android:entries="@array/Group_arrays"
+            android:prompt="@string/group_prompt" />
+
+        <EditText
+            android:id="@+id/MassIntention2"
+            android:layout_below="@+id/BaptismGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Mass intention"
+            android:imeOptions="actionUnspecified"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/Save"
+            style="?android:textAppearanceSmall"
+            android:layout_below="@+id/MassIntention2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/holo_purple"
+            android:text="Add event"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/Signout"
+            style="?android:textAppearanceSmall"
+            android:layout_below="@+id/Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/holo_purple"
+            android:text="Sign out"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>

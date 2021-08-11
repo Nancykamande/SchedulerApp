@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:clickable="true">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+           <TextView
+               android:id="@+id/DeceasedName"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:text="Name: "
+               android:textColor="#000"
+               android:textSize="20dp" />
+
+           <TextView
+               android:id="@+id/ShowDeceasedNameTextView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_marginStart="18dp"
+               android:layout_marginLeft="18dp"
+               android:layout_marginTop="-2dp"
+               android:layout_toEndOf="@+id/DeceasedName"
+               android:layout_toRightOf="@+id/DeceasedName"
+               android:gravity="center"
+               android:text="Show Deceased Name"
+               android:textColor="#000"
+               android:textSize="20dp" />
+
+           <TextView
+               android:id="@+id/BurialTime"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/DeceasedName"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentLeft="true"
+               android:layout_marginStart="-2dp"
+               android:layout_marginLeft="-2dp"
+               android:layout_marginTop="1dp"
+               android:gravity="center"
+               android:text="Burial time: "
+               android:textColor="#000"
+               android:textSize="20dp" />
+
+           <TextView
+               android:id="@+id/ShowBurialtime"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_marginStart="7dp"
+               android:layout_marginLeft="7dp"
+               android:layout_marginTop="26dp"
+               android:layout_toEndOf="@+id/BurialTime"
+               android:layout_toRightOf="@+id/BurialTime"
+               android:gravity="center"
+               android:text="Show burial time"
+               android:textColor="#000"
+               android:textSize="20dp" />
+
+           <TextView
+               android:id="@+id/BurialVenue"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/BurialTime"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentLeft="true"
+               android:layout_marginStart="1dp"
+               android:layout_marginLeft="1dp"
+               android:layout_marginTop="3dp"
+
+               android:gravity="center"
+               android:text="Venue: "
+               android:textColor="#000"
+               android:textSize="20dp" />
+
+           <TextView
+               android:id="@+id/ShowBurialVenue"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_marginStart="36dp"
+               android:layout_marginLeft="36dp"
+               android:layout_marginTop="62dp"
+               android:layout_toEndOf="@+id/BurialVenue"
+               android:layout_toRightOf="@+id/BurialVenue"
+               android:gravity="center"
+               android:text="Show burial Venue"
+               android:textColor="#000"
+               android:textSize="20dp" />
+
+           <TextView
+               android:id="@+id/BurialDate"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/BurialVenue"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentLeft="true"
+               android:layout_marginStart="3dp"
+               android:layout_marginLeft="3dp"
+               android:layout_marginTop="3dp"
+               android:gravity="center"
+               android:text="Date: "
+               android:textColor="#000"
+               android:textSize="20dp" />
+
+           <TextView
+               android:id="@+id/ShowBurialDate"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_marginStart="45dp"
+               android:layout_marginLeft="45dp"
+               android:layout_marginTop="93dp"
+               android:layout_toEndOf="@+id/BurialDate"
+               android:layout_toRightOf="@+id/BurialDate"
+               android:gravity="center"
+               android:text="Show burial Date"
+               android:textColor="#000"
+               android:textSize="20dp" />
+
+           <TextView
+               android:id="@+id/BurialCelebrant"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/BurialDate"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentLeft="true"
+               android:layout_marginStart="-1dp"
+               android:layout_marginLeft="-1dp"
+               android:layout_marginTop="7dp"
+               android:gravity="center"
+               android:text="Celebrant: "
+               android:textColor="#000"
+               android:textSize="20dp" />
+
+           <TextView
+               android:id="@+id/ShowBurialCelebrant"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_marginStart="16dp"
+               android:layout_marginLeft="16dp"
+               android:layout_marginTop="123dp"
+               android:layout_toEndOf="@+id/BurialCelebrant"
+               android:layout_toRightOf="@+id/BurialCelebrant"
+               android:gravity="center"
+               android:text="Show burial Celebrant"
+               android:textColor="#000"
+               android:textSize="20dp" />
+
+           <Button
+               android:id="@+id/Feedback"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="156dp"
+               android:background="@null"
+               android:text="Send feedback"
+               android:textAllCaps="false"
+               android:textColor="@android:color/black"
+               android:textSize="15dp" />
+
+       </RelativeLayout>
+   </androidx.cardview.widget.CardView>
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Christianspackage.Reportfuneral">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="23dp"
+            android:text="Welcome to Church Event Scheduling and management App!"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.165" />
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hello"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="79dp"
+            android:text="Fil the form to report and request funeral mass !"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.165" />
+
+        <EditText
+            android:id="@+id/Dname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="deceased full Names"
+            android:layout_below="@id/intro"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="text"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/DAGE"
+            android:layout_below="@+id/Dname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="AGE"
+            android:imeOptions="actionUnspecified"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/number"
+            android:layout_below="@+id/DAGE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Baptism/memberships Card number"
+            android:imeOptions="actionUnspecified"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/Relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Relative full Names"
+            android:layout_below="@id/number"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="text"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/Relative_phone"
+            android:layout_below="@+id/Relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint=" Relative phone number"
+            android:imeOptions="actionUnspecified"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/Venue"
+            android:layout_below="@+id/Relative_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Venue/Local Church"
+            android:imeOptions="actionUnspecified"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_below="@+id/Venue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/SAVE"
+            style="?android:textAppearanceSmall"
+            android:layout_below="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/holo_purple"
+            android:text="Send  event request"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

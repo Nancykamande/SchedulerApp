@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/cardview_dark_background"
+    android:scrollbars="vertical"
+    android:id="@+id/Cardview"
+    android:clickable="true"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Adate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adoration date: "
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowAdorationdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/Adate"
+            android:layout_toRightOf="@+id/Adate"
+            android:gravity="center"
+            android:text="Show Adoration date"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/AdorationStarttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Adate"
+            android:text="Start time: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowAdorationstarttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="27dp"
+            android:layout_toEndOf="@+id/AdorationStarttime"
+            android:layout_toRightOf="@+id/AdorationStarttime"
+            android:gravity="center"
+            android:text="Show Start time"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/Adorationvenue"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/AdorationStarttime"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Adoration venue: " />
+
+        <TextView
+            android:id="@+id/ShowAdorationVenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="56dp"
+            android:layout_toEndOf="@+id/Adorationvenue"
+            android:layout_toRightOf="@+id/Adorationvenue"
+            android:gravity="center"
+            android:text="Show Adoration Venue"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Adorationcelebrant"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/Adorationvenue"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Main Celebrant: " />
+
+        <TextView
+            android:id="@+id/ShowAdorationcelebrant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="84dp"
+            android:layout_toEndOf="@+id/Adorationcelebrant"
+            android:layout_toRightOf="@+id/Adorationcelebrant"
+            android:gravity="center"
+            android:text="Show Main Celebrant"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/Feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:background="@null"
+            android:text="Send feedback"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="15dp">
+
+        </Button>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

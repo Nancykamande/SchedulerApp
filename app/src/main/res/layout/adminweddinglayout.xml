@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:clickable="true"
+    android:layout_marginBottom="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/Bridename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bride's name: "
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowBridename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/Bridename"
+            android:layout_toRightOf="@+id/Bridename"
+            android:gravity="center"
+            android:text="Show Bridename Name"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Bridecontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bride's contact: "
+            android:layout_below="@+id/Bridename"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowBridecontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/Bridecontact"
+            android:layout_toRightOf="@+id/Bridecontact"
+            android:gravity="center"
+            android:text="Show Bridename conatct"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Groomname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Groomname: "
+            android:layout_below="@+id/Bridecontact"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowGroomname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="56dp"
+            android:layout_toEndOf="@+id/Groomname"
+            android:layout_toRightOf="@+id/Groomname"
+            android:gravity="center"
+            android:text="Show Groomname"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Groomcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Groom's contact: "
+            android:layout_below="@+id/Groomname"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowGroomcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="81dp"
+            android:layout_toEndOf="@+id/Groomcontact"
+            android:layout_toRightOf="@+id/Groomcontact"
+            android:gravity="center"
+            android:text="Show Groom conatct"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Bridemother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bride's mother: "
+            android:layout_below="@+id/Groomcontact"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowBridemother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="103dp"
+            android:layout_toEndOf="@+id/Bridemother"
+            android:layout_toRightOf="@+id/Bridemother"
+            android:gravity="center"
+            android:text="Show  Bride mother"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Bridefather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bride's father: "
+            android:layout_below="@+id/Bridemother"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowBridefather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="129dp"
+            android:layout_toEndOf="@+id/Bridefather"
+            android:layout_toRightOf="@+id/Bridefather"
+            android:gravity="center"
+            android:text="Show  Bride father"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Groommother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Groom mother: "
+            android:layout_below="@+id/Bridefather"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowGroomMother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="157dp"
+            android:layout_toEndOf="@+id/Groommother"
+            android:layout_toRightOf="@+id/Groommother"
+            android:gravity="center"
+            android:text="Show  Groom mother"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Groomfather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Groom's father: "
+            android:layout_below="@+id/Groommother"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowGroomfather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="189dp"
+            android:layout_toEndOf="@+id/Groomfather"
+            android:layout_toRightOf="@+id/Groomfather"
+            android:gravity="center"
+            android:text="Show  Groom father"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Spiritualparents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spiritualparent: "
+            android:layout_below="@+id/Groomfather"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowSpiritualParent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="214dp"
+            android:layout_toEndOf="@+id/Spiritualparents"
+            android:layout_toRightOf="@+id/Spiritualparents"
+            android:gravity="center"
+            android:text="Show spiritual parents"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:layout_below="@+id/Spiritualparents"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="126dp"
+            android:layout_marginLeft="126dp"
+            android:layout_marginTop="238dp"
+            android:layout_toEndOf="@+id/date"
+            android:layout_toRightOf="@+id/date"
+            android:gravity="center"
+            android:text="Show date"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:layout_below="@+id/date"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginLeft="129dp"
+            android:layout_marginTop="266dp"
+            android:layout_toEndOf="@+id/time"
+            android:layout_toRightOf="@+id/time"
+            android:gravity="center"
+            android:text="Show time"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Venue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venue: "
+            android:layout_below="@+id/time"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowVenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="294dp"
+            android:layout_toEndOf="@+id/Venue"
+            android:layout_toRightOf="@+id/Venue"
+            android:gravity="center"
+            android:text="Show venue"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Celebrant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celebrant: "
+            android:layout_below="@+id/Venue"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowCelebrant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="325dp"
+            android:layout_toEndOf="@+id/Celebrant"
+            android:layout_toRightOf="@+id/Celebrant"
+            android:gravity="center"
+            android:text="Show Celebrant"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Intention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mass Intention: "
+            android:layout_below="@+id/Celebrant"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ShowIntention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="351dp"
+            android:layout_toEndOf="@+id/Intention"
+            android:layout_toRightOf="@+id/Intention"
+            android:gravity="center"
+            android:text="Show Intention"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Intention"
+            android:background="@null"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

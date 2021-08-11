@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:clickable="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="416dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Bridename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bride name:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowBridename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="-1dp"
+            android:layout_toEndOf="@+id/Bridename"
+            android:layout_toRightOf="@+id/Bridename"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Groomname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Bridename"
+            android:text="Groomname:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowGroomname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="27dp"
+            android:layout_toEndOf="@+id/Groomname"
+            android:layout_toRightOf="@+id/Groomname"
+            android:gravity="center"
+            android:text="Gname"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Bcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Groomname"
+            android:text="Bride contact:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowBridecontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="52dp"
+            android:layout_toEndOf="@+id/Bcontact"
+            android:layout_toRightOf="@+id/Bcontact"
+            android:gravity="center"
+            android:text="B contact"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Gcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Bcontact"
+            android:text="Groom contact:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowGroomcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="77dp"
+            android:layout_toEndOf="@+id/Gcontact"
+            android:layout_toRightOf="@+id/Gcontact"
+            android:gravity="center"
+            android:text="G contact"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Venue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Gcontact"
+            android:text="Venue:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowVenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="107dp"
+            android:layout_toEndOf="@+id/Venue"
+            android:layout_toRightOf="@+id/Venue"
+            android:gravity="center"
+            android:text="venue"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Bmother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Venue"
+            android:text="Bride's mother:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowBridemother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="133dp"
+            android:layout_toEndOf="@+id/Bmother"
+            android:layout_toRightOf="@+id/Bmother"
+            android:gravity="center"
+            android:text="Show bride mother"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Bfather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Bmother"
+            android:text="Bride's father:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowBridefather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="162dp"
+            android:layout_toEndOf="@+id/Bfather"
+            android:layout_toRightOf="@+id/Bfather"
+            android:gravity="center"
+            android:text="Show bride father"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Gmother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Bfather"
+            android:text="Bridegroom's mother:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowGroommother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="193dp"
+            android:layout_toEndOf="@+id/Gmother"
+            android:layout_toRightOf="@+id/Gmother"
+            android:gravity="center"
+            android:text="Show groom mother"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Gfather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Gmother"
+            android:text="Bridegroom's father:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowGroomfather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="223dp"
+            android:layout_toEndOf="@+id/Gfather"
+            android:layout_toRightOf="@+id/Gfather"
+            android:gravity="center"
+            android:text="Show groom father"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Spiritual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Gfather"
+            android:layout_marginTop="10dp"
+            android:text="Spiritual Parents:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowSpiritualParent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="253dp"
+            android:layout_toEndOf="@+id/Spiritual"
+            android:layout_toRightOf="@+id/Spiritual"
+            android:gravity="center"
+            android:text="SPiritual parents"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Spiritual"
+            android:layout_marginTop="-1dp"
+            android:text="Email :"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="279dp"
+            android:layout_toEndOf="@+id/Email"
+            android:layout_toRightOf="@+id/Email"
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Brideid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Email"
+            android:layout_marginTop="-5dp"
+            android:text="Bride Idno:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowBrideId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="300dp"
+            android:layout_toEndOf="@+id/Brideid"
+            android:layout_toRightOf="@+id/Brideid"
+            android:gravity="center"
+            android:text="Bride Id"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Groomid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Brideid"
+            android:layout_marginTop="-5dp"
+            android:text="Bridegroom Idno:"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowGroomId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="320dp"
+            android:layout_toEndOf="@+id/Groomid"
+            android:layout_toRightOf="@+id/Groomid"
+            android:gravity="center"
+            android:text="Groom Id"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_Approve"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Brideid"
+            android:layout_marginTop="41dp"
+            android:background="@null"
+            android:text="Approve"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

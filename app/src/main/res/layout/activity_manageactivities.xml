@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/baptism1"
+    android:fillViewport="false">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Manageactivities">
+
+    <TextView android:id="@+id/link_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Welcome to church events scheduling and management App"
+        android:gravity="center"
+
+        android:textSize="16dp"/>
+    <TextView android:id="@+id/intro"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/link_login"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="The best and easier way to schedule activities"
+        android:gravity="center"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/wedding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="10dp"
+        android:padding="12dp"
+        android:layout_below="@+id/intro"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_purple"
+        android:text="wedding events"/>
+    <Button
+        android:id="@+id/baptism"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="10dp"
+        android:padding="12dp"
+        android:layout_below="@+id/wedding"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/black"
+        android:text="Baptism ceremony"/>
+    <Button
+        android:id="@+id/funeral"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="10dp"
+        android:padding="12dp"
+        android:layout_below="@+id/baptism"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_purple"
+        android:text="funeral events"/>
+
+
+
+    <Button
+        android:id="@+id/adoration"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="10dp"
+        android:padding="12dp"
+        android:layout_below="@+id/funeral"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_purple"
+        android:text="Eucharistic adoration"/>
+
+    <Button
+        android:id="@+id/btn_signout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adoration"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:text="sign out"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+
+</RelativeLayout>
+    </ScrollView>

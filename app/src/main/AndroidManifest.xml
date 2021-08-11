@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schedulerapp">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/beatiful"
+        android:label="Church event management and schedduling App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Adventures.featuresActivity" />
+
+        <activity android:name=".Adventures.AdminPanel" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Adventures.MapsActivity"
+            android:label="@string/title_activity_maps"/>
+        <activity android:name=".Adventures.AdmLogin" />
+        <activity android:name=".EmailSend" />
+        <activity android:name=".Admin.ApproveFuneral" />
+        <activity android:name=".PriestPackage.PriestHome" />
+        <activity android:name=".PriestPackage.Priest" />
+        <activity android:name=".Admin.ApproveWeddings" />
+        <activity android:name=".Admin.AdminFuneralRequests" />
+        <activity android:name=".Admin.PopFuneral" />
+        <activity android:name=".Compare" />
+        <activity android:name=".PhoneDailer" />
+        <activity android:name=".AdminRetrieve.Ad_Funeral" />
+        <activity android:name=".AdminRetrieve.Ad_Baptism" />
+        <activity android:name=".AdminRetrieve.Ad_Adoration" />
+        <activity android:name=".AdminRetrieve.AdminWedding" />
+        <activity android:name=".Admin.ViewEvents" />
+        <activity android:name=".Datepicker" />
+        <activity android:name=".Final" />
+        <activity android:name=".Test" />
+        <activity android:name=".Admin.AdminRequests" />
+        <activity android:name=".Stackover" />
+        <activity android:name=".Admin.PopWedding" />
+        <activity android:name=".Christianspackage.Reportfuneral" />
+        <activity android:name=".Christianspackage.Hopewedding" />
+        <activity android:name=".Christianspackage.EventsRequests" />
+        <activity android:name=".AdminMakeChanges" />
+        <activity android:name=".Christianspackage.Feedback" />
+        <activity android:name=".UpdatedeleteAdoration" />
+        <activity android:name=".Christianspackage.Adorationdetails" />
+        <activity android:name=".Dailymass" />
+        <activity android:name=".Admin.Adoration" />
+        <activity android:name=".Christianspackage.Baptismdetails" />
+        <activity android:name=".Github" />
+        <activity android:name=".Admin.Baptism" />
+        <activity android:name=".Christianspackage.Funeraldetails" />
+        <activity android:name=".Christianspackage.MainTrial" />
+        <activity android:name=".Christianspackage.Retrieveddetails" />
+        <activity android:name=".Admin.Funeral" />
+        <activity android:name=".Christianspackage.UserProfile" />
+        <activity android:name=".Adventures.LoginActivity" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".Christianspackage.ResetPassword" />
+        <activity android:name=".Adventures.Signup" />
+        <activity android:name=".RegisterTest" />
+        <activity android:name=".Admin.Wedding" />
+        <activity android:name=".Admin.Manageactivities" />
+        <activity android:name=".Christianspackage.Christians" />
+        <activity android:name=".Admin.AdminLogin" />
+        <activity android:name=".Admin.MainActivity" />
+    </application>
+
+</manifest>

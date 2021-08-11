@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dailymass">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/primary_text_dark"
+        android:gravity="center"
+        android:orientation="vertical"><![CDATA[
+
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        ]]>
+
+    <ImageView
+        android:layout_width="277dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/jesus" />
+
+    <EditText
+        android:id="@+id/Bridename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Bride full Names"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/bride_phone"
+        android:layout_below="@+id/Bridename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="phone number"
+        android:imeOptions="actionUnspecified"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/Bridemother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Bride mother"
+        android:layout_below="@+id/bride_phone"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/Bridefather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Bride father"
+        android:layout_below="@+id/Bridemother"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/Groomname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Groom full Names"
+        android:imeOptions="actionUnspecified"
+        android:layout_below="@+id/Bridefather"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/Groom_phone"
+        android:layout_below="@+id/Groomname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="phone number"
+        android:imeOptions="actionUnspecified"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/Groommother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Groom mother/guardian"
+        android:layout_below="@+id/Groom_phone"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/Groomfather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Groom father/guardian"
+        android:layout_below="@+id/Groommother"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/Spiritualparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Spiritual parent"
+        android:layout_below="@+id/Groomfather"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/Venue"
+        android:layout_below="@+id/Spiritualparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Venue/Local Church"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:id="@+id/ScheduledDate"
+        android:layout_below="@+id/Venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Date"
+        android:imeOptions="actionUnspecified"
+        android:inputType="date"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/SAVE"
+        style="?android:textAppearanceSmall"
+        android:layout_below="@+id/MassIntention"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_purple"
+        android:text="Send  event request"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/LOGOUT"
+        style="?android:textAppearanceSmall"
+        android:layout_below="@+id/SAVE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@android:color/holo_purple"
+        android:text="Sign out"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

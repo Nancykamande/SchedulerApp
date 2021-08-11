@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/Bridename"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Events"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:textSize="148sp"
+        android:textColor="@color/white"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/Groomname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Bridename"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="148sp" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/DATE"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Groomname"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="148sp" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/VENUE"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/DATE"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="148sp" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/CELEBRANT"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/VENUE"
+        android:textColor="@color/white"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:textSize="148sp" />
+
+
+</LinearLayout>
